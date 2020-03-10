@@ -152,8 +152,14 @@ li {
   flex-wrap: wrap;
 }
 
-/* PAGES */
+.active {
+  display: block;
+}
 
+/* PAGES */
+figure {
+  width: 100%;
+}
 
 /* ANIMATIONS */
 
@@ -164,7 +170,7 @@ li {
     flex-direction: column;
   }
 
-  figure {
+  figure>img {
     width: 100%;
   }
 }
