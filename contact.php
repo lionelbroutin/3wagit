@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-</head>
+require'header.php'
+?>
 
-<body>
     <main>
         <h1>Nous contacter</h2>
             <p><i class="fas fa-envelope"></i>Beach Hôtel & Spa</p>
@@ -55,7 +49,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.2700930825927!2d-61.50744248513959!3d16.20654848879633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48013fb559d391e9%3A0xf11a19de1d5fc1b1!2sHotel%20Salako!5e0!3m2!1sfr!2sfr!4v1583835866323!5m2!1sfr!2sfr"
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </main>
+    <?php
 
-</body>
-
-</html>
+require'footer.php'
+?>

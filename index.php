@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<?php
 
-<head>
-  <meta charset="utf-8">
-  <title>Accueil</title>
-</head>
-
-<body>
+require'header.php'
+?>
 
   <section class="landingImage">
     <h1>Beach Hôtel & Spa</h1>
@@ -65,6 +60,7 @@
 
   </main>
 
-</body>
+  <?php
 
-</html>
+require'footer.php'
+?>

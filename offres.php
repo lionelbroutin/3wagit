@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<?php
 
-<head>
-  <meta charset="utf-8">
-  <title>Offres</title>
-</head>
-
-<body>
-
+require'header.php'
+?>
   <main>
     <h2>Offres spéciales</h2>
     <p>il vous reste <span id="timeLeft"></span> pour en profiter</p>
@@ -37,6 +31,7 @@
 
   </main>
 
-</body>
+  <?php
 
-</html>
+require'footer.php'
+?>
