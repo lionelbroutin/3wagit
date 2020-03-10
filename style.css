@@ -1,0 +1,108 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ============================
+        HEADER
+ =============================*/
+
+
+header nav {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header nav ul {
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/* ============================
+      FOOTER
+ =============================*/
+footer {
+  margin: auto;
+  background-color: #0DB3D9;
+  color: #fff;
+}
+
+span {
+  font-weight: bold;
+}
+
+#footer-linx-container {
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#footer-linx-container ul {
+  line-height: 1.8em;
+}
+
+footer .fab {
+  padding: 0.5em;
+}
+
+footer section:nth-child(2) {
+  background-color: #1261A6;
+  text-align: center;
+}
+
+
+/* ======================== */
+a {
+  text-decoration: none;
+  color: #0DB3D9;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* MODULES */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* PAGES */
+
+
+/* ANIMATIONS */
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:960px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .row {
+    flex-direction: column;
+  }
+}
