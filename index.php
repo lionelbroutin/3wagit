@@ -69,7 +69,7 @@ require'header.php'
         <figcaption>séjours à thèmes</figcaption>
       </figure>
 
-      <h3>Chez nous, vous passerez des moments d'exception !</h3>
+      <h4>Chez nous, vous passerez des moments d'exception !</h4>
 
     </section>
 

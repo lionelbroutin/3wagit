@@ -38,6 +38,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
 /* ============================
         HEADER
  =============================*/
@@ -166,6 +171,8 @@ figure {
 }
 
 #offres figure {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
