@@ -29,7 +29,22 @@ require'header.php'
         Pointe-à-Pitre et son port sont accessibles en 10 minutes de route. Les chutes du Carbet se trouvent à 54 km, tandis que l'aéroport Guadeloupe - Pôle Caraïbes est à seulement 10 km.
       </p>
 
-      <img id="slider" src="img/slideshow/spa-massage.jpg" alt="massage">
+      <div class="slider">
+          <i class="fas fa-chevron-left"></i>
+          <figure class="imageSlider active">
+            <img src="img/slideshow/beach-cocktail.jpg" alt="slide 1">
+          </figure>
+
+          <figure class="imageSlider">
+            <img src="img/slideshow/beach-house.jpg" alt="slide 2">
+          </figure>
+
+          <figure class="imageSlider">
+            <img src="img/slideshow/spa-massage.jpg" alt="slide 3">
+          </figure>
+
+          <i class="fas fa-chevron-right"></i>
+      </div>
 
     </section>
 
