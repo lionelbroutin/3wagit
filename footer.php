@@ -31,6 +31,7 @@
       <p><i class="far fa-copyright"></i> 2019 - Exercice pédagogique fourni par Christiane Dumont</p>
     </section>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
