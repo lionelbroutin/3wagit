@@ -1,11 +1,11 @@
 'use strict'
-  // cache les images
+
 
 /*************************************************************************************************/
 /* ****************************************** DONNEES ****************************************** */
 /*************************************************************************************************/
 // Variable (tableau) qui contient toutes les <figure>
-const figure = document.querySelectorAll('figure');
+const figure = document.querySelectorAll('.imageSlider');
 // Variable qui continent le chevron droit
 const flecheDroite = document.querySelector('.fas.fa-chevron-right');
 // Variable qui contient le chevron gauche
