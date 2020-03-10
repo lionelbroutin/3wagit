@@ -153,12 +153,21 @@ li {
 }
 
 .active {
-  display: block;
+  display: block !important;
 }
 
 /* PAGES */
 figure {
   width: 100%;
+}
+
+.imageSlider {
+  display: none;
+}
+
+#offres figure {
+  justify-content: center;
+  align-items: center;
 }
 
 /* ANIMATIONS */

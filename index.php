@@ -33,7 +33,7 @@ require'header.php'
 
     </section>
 
-    <section id="offres">
+    <section  class="column" id="offres">
       <h2>Nos offres</h2>
 
       <p>
