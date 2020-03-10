@@ -3,9 +3,9 @@
 require'header.php'
 ?>
 
-  <section class="landingImage">
+  <section id="landingImage">
     <h1>Beach Hôtel & Spa</h1>
-    <p>Bienvenue en Guadeloupe</p>
+    <p class="sub-title">Bienvenue en Guadeloupe</p>
   </section>
 
   <main>
