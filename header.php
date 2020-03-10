@@ -11,14 +11,18 @@
 </head>
 
 <body>
-  <header>
-    <nav class="row">
-      <img src="img/logo.jpg" alt="logo">
-      <ul class="row">
-        <li><a href="#">Nos chambres</a></li>
-        <li><a href="#">Notre hôtel</a></li>
-        <li><a href="#">Offres spéciales</a></li>
-        <li><a href="#">Nous contacter</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+      <nav class="row">
+        <a href="#" id="tog-bars"><i class="fas fa-bars"></i></a>
+        <img src="img/logo.jpg" alt="logo">
+        <div id="menuToggle" class="row">
+        <a href="#" id="tog-times"><i class="fas fa-times"></i></a>
+        <ul class="row">
+          <li><a href="#">Nos chambres</a></li>
+          <li><a href="#">Notre hôtel</a></li>
+          <li><a href="#">Offres spéciales</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header>

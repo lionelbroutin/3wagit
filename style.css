@@ -90,6 +90,29 @@ header nav ul {
   font-size: 1.2em;
 }
 
+#tog-bars {
+  display: none;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#tog-times {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+#menuToggle {
+  margin: auto;
+  display: block;
+  background-color: #fff;
+}
+
+
+
+
 /* ============================
       FOOTER
  =============================*/
@@ -188,6 +211,18 @@ figure {
 
   figure>img {
     width: 100%;
+  }
+
+  #tog-bars {
+    display: block;
+  }
+
+  #menuToggle {
+    margin: auto;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
   }
 }
 

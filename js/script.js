@@ -73,3 +73,18 @@ document.addEventListener('keydown', onKeyDown);
 /**********************************************TEST ********************/
 console.log(document.getElementsByTagName('figure').length);
 console.log(figure);
+
+
+function displayNav() {
+  tog1.style.display = 'none';
+  document.getElementById("menuToggle").style.display = 'block';
+}
+
+function hideNav() {
+  document.getElementById("menuToggle").style.display = 'none';
+  tog1.style.display = 'block';
+}
+let tog1 = document.getElementById("tog-bars");
+tog1.addEventListener('click', displayNav);
+let tog2 = document.getElementById("tog-times");
+tog2.addEventListener('click', hideNav);
